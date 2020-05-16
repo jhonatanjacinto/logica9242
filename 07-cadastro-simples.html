@@ -1,0 +1,21 @@
+<meta charset="utf-8">
+<h1>Cadastro Simples</h1>
+<script>
+
+    var nome = prompt("Por favor, informe seu nome:")
+    var sobrenome = prompt("Por favor, informe seu sobrenome:")
+    var email = prompt("Por favor, informe seu e-mail:")
+    var ano_nascimento = prompt("Por favor, informe seu ano de nascimento:")
+    var ano_atual = new Date().getFullYear()
+    var idade_atual = ano_atual - ano_nascimento
+
+    document.write(`
+        Olá, ${nome} ${sobrenome}<br>
+        <br>
+        Seu e-mail é: ${email} <br>
+        Sua idade é: ${idade_atual} anos.
+    `)
+
+    
+
+</script>
