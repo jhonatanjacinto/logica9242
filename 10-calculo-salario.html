@@ -1,11 +1,16 @@
 <meta charset="utf-8">
 <h1>Cálculo do Salário do Funcionário</h1>
+
+<script src="javascript/formataMoeda.js"></script>
+<script src="javascript/pedeNumero.js"></script>
+
 <script>
 
-    var salario = Number(prompt('Por favor, informe seu salário atual:').replace(',', '.'))
-    var percentual = parseInt(prompt('Por favor, informe o percentual de reajuste').replace(',', '.'))
+    var salario = pegaFloat('Por favor, informe seu salário atual:')
+    var percentual = pegaInt('Por favor, informe o percentual de reajuste')
     var valor_reajuste = salario * percentual / 100
     var salario_final = salario + valor_reajuste
-    document.write(`Seu novo salário será: R$ ${salario_final.toFixed(2).replace('.', ',')}`)
+    document.write(`Seu novo salário será: ${formataMoeda(salario_final)}`)
 
 </script>
+

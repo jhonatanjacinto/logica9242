@@ -1,0 +1,20 @@
+Carro:
+    1) distancia em KM (float) X
+    2) quantos km o carro faz por litro (autonomia) (float) X
+    3) preço da gasolina (float) X 
+    4) preço do estacionamento (float) X
+
+    Exibir:
+        Preço da Gasolina: R$ X
+        Valor gasto com Gasolina: R$ X
+        Preço do Estacionamento: R$ X
+        Total da Viagem com Carro: R$ X
+
+Uber:
+    1) Preço base: R$ 2,75
+    2) Velocidade Média: 25 KM/h
+    3) R$ 0,26 por minuto de viagem (X)
+    4) R$ 1,40 por KM rodado (X)
+
+    Exibir:
+        Total da Viagem com Uber: R$ X

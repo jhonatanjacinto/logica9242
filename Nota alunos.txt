@@ -4,4 +4,9 @@ final é:
 
     media final = ((nota 1 * 2) + (nota 2 * 3) + (nota 3 * 5)) / 10
 
-    
+Passo a passo
+1) variavel pra guardar a nota 1
+2) variavel para guardar a nota 2 
+3) variavel para guardar a nota 3 
+4) variavel para guardar a média
+5) Exibir na tela o resultado da média calculada

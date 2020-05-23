@@ -1,0 +1,32 @@
+Uma revendedora de carros usados paga a seus funcionários vendedores um salário fixo por mês, 
+MAIS uma comissão também fixa para cada carro vendido e 
+MAIS 5% do total das vendas efetuadas pelo vendedor. Escrever um algoritmo que peça o número 
+de carros por ele vendidos, o valor total de suas
+vendas, o salário fixo e o valor que ele recebe por carro vendido. Calcule e escreva o 
+salário final do vendedor.
+
+
+Do que eu preciso:
+    1) Salário Fixo mensal (float)
+    2) Valor da Comissão Fixa por Carro Vendido (float)
+    3) Valor total das vendas efetuadas (float)
+    4) Quantidade de Carros Vendida (integer)
+
+Passo a passo:
+    1) Variável para guardar o salário fixo mensal 
+    2) Variável para guardar o valor da comissão fixa por carro 
+    3) Variável para guardar o valor total das vendas efetuadas 
+    4) Variável para guardar a quantidade de carros vendidos
+    5) Multiplicar a quantidade de carros vendida pela comissão fixa (comissaoCarros)
+    6) Calcular 5% sobre o total das vendas efetuadas (comissaoPercentual)
+    7) Calcular o salário final: salario fixo + comissao percentual + comissao carros
+    8) Exibir o valor do salário final 
+
+    Ex:
+        Salário fixo: R$ 1.500,00
+        Comissão Por carro vendido: R$ 100,00
+        Total das vendas: R$ 35.000,00
+        Quantidade de Carros vendida: 3 carros 
+
+        Salário final: R$ 3.550,00
+    

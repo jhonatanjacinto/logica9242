@@ -1,0 +1,23 @@
+<meta charset="utf-8">
+<h1>Salário do Vendedor</h1>
+
+
+<script src="javascript/formataMoeda.js"></script>
+<script src="javascript/pedeNumero.js"></script>
+
+<script>
+
+    var salario_fixo = pegaFloat('Informe o salário fixo do vendedor')
+    var comissao_por_carro = pegaFloat('Informe a comissão por carro:')
+    var valor_total_vendas = pegaFloat('Informe o valor total das vendas:')
+    var quantidade_carros = pegaInt('Informe a quantidade de carros vendidos:')
+
+    var total_comissao_carros = quantidade_carros * comissao_por_carro
+    var total_comissao_percentual = valor_total_vendas * 0.05
+    var salario_final = salario_fixo + total_comissao_percentual + total_comissao_carros
+
+    document.write(`
+        Salário total do vendedor é: ${formataMoeda(salario_final)}
+    `)
+
+</script>
