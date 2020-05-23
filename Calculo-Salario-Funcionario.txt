@@ -1,2 +1,7 @@
 Crie um algoritmo que peça o salário mensal atual de um funcionário e o percentual de reajuste.
 Calcular e escrever o valor do novo salário.
+
+1) Pedir pro usuário informar o salario e guardar numa variável (X)
+2) Pedir pro usuário informar o percentual de reajuste e guardar numa variável (X)
+3) Calculo do novo salário (X)
+4) Exibir o novo salário na tela
