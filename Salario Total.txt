@@ -1,0 +1,22 @@
+Pedir o salário fixo e o valor das vendas efetuadas pelo vendedor de uma empresa. Sabendo-se que
+ele recebe uma comissão de 3% sobre o total das vendas até R$ 1.500,00 mais 5% sobre o que
+ultrapassar este valor, calcular e escrever o seu salário total.
+
+
+
+Ex:
+
+Salário fixo = 100,00
+Total das vendas: 1400,00 (3% = R$ 42,00)
+
+Salário final = 142,00
+
+-------------------------------------------------------
+
+Salário fixo = 100,00
+Total das vendas: 4000,00
+3% sobre 1500,00 = R$ 45,00
+5% sobre a diferença = 4000 - 1500 = 2500 / 2500 x 0,05 (5%) = 125
+
+Salário final = 100 + 45 + 125 = R$ 270,00
+

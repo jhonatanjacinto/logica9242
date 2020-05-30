@@ -1,0 +1,24 @@
+<meta charset="utf-8">
+<h1>Aprovação Aluno</h1>
+
+<script src="javascript/pedeNumero.js"></script>
+<script>
+
+    var nota_1 = pegaFloat('Por favor, informe a primeira nota:')
+    var nota_2 = pegaFloat('Por favor, informe a segunda nota:')
+    var media = (nota_1 + nota_2) / 2
+
+    document.write(`
+        Nota 1: ${nota_1} <br>
+        Nota 2: ${nota_2} <br>
+        Sua média é: ${media.toFixed(1)} <br>
+    `)
+
+    if (media >= 7) {
+        document.write('Você foi aprovado!')
+    }
+    else {
+        document.write('Você foi reprovado!')
+    }
+
+</script>

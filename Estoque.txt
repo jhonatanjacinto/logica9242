@@ -1,0 +1,26 @@
+  
+Faça um algoritmo que peça pro usuário informar: quantidade atual em estoque, quantidade máxima em estoque e quantidade mínima em estoque de um produto. 
+Calcule a quantidade média e exiba: a quantidade atual e a média.
+
+Em seguida, verifique: se a quantidade atual em estoque for maior ou igual a quantidade média mostre a mensagem 'Não efetuar compra', caso contrário exiba a mensagem 'Efetuar compra'.
+
+    FÓRMULA:
+        quantidade média = (quantidade máxima + quantidade mínima) / 2
+
+---------------------------------
+
+1) Pedir pro usuário a quantidade atual em estoque (integer) X
+2) Pedir pro usuário a quantidade máxima em estoque (integer) X 
+3) Pedir pro usuário a quantidade minima em estoque (integer) X
+4) Calcular a quantidade média em estoque usando a fórmula apresentada X
+5) Exibir na tela: 
+        Quantidade Atual: X
+        Quantidade Média: Y
+
+6) SE a quantidade atual for MAIOR OU IGUAL a quantidade média, exibir na tela:
+        "Não efetuar compra" (x)
+
+7) CASO CONTRÁRIO exibir na tela:
+        "Efetuar compra"
+
+
