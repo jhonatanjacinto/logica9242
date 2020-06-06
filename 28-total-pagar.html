@@ -1,0 +1,33 @@
+<meta charset="utf-8">
+<h1>Total a Pagar</h1>
+
+<script src="javascript/formataMoeda.js"></script>
+<script src="javascript/pedeNumero.js"></script>
+
+<script>
+
+    var produto = prompt('Digite o nome do Produto:')
+    var quantidade = pegaInt('Digite a quantidade:')
+    var preco = pegaFloat('Digite o preço unitário:')
+    var total_sem_desconto = preco * quantidade
+
+    if (quantidade <= 5) {
+        var desconto = total_sem_desconto * 0.02
+    }
+    else if (quantidade > 5 && quantidade <= 10) {
+        var desconto = total_sem_desconto * 0.03
+    }
+    else {
+        var desconto = total_sem_desconto * 0.05
+    }
+
+    var total_a_pagar = total_sem_desconto - desconto
+
+    document.write(`
+        Total: ${formataMoeda(total_sem_desconto)} <br>
+        Desconto: ${formataMoeda(desconto)} <br>
+        Total a Pagar: ${formataMoeda(total_a_pagar)}
+    `)
+
+
+</script>
